@@ -32,6 +32,8 @@
     19. Wrapper css
     
 -----------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 h1, h2, h3, h4, h5, h6, .main-btn i, .main-btn.filled-btn, .main-btn.filled-btn:hover i, .btn-link, .header-navigation .main-menu ul > li .sub-menu li a, .nav-right-item .lang-dropdown .nice-select ul.list, .hero-wrapper-two .hero-content .hero-button .main-btn.primary-btn i, .single-skill-circle .inner-circle .number, .check-list li, .single-service-item .content .icon-btn, .single-service-item-three .content .meta span.rate, .single-service-item-four:hover .content h3.title, .activity-nav-tab .nav-tabs li a, .booking-form-two .booking-btn, .related-tour-place .place-arrows .slick-arrow:hover, .tour-area-nav .share-nav a, .gw-testimonial-item .testimonial-inner-content > p, .gw-testimonial-item-two .testimonial-inner-content > p, .single-blog-post-four .entry-content .main-btn.filled-btn:hover i, .blog-post .entry-content .block-quote span, .sidebar-widget-area .tag-cloud-widget a, .sidebar-widget-area .booking-form-widget .sidebar-booking-form .booking-item label, .sidebar-widget-area .booking-form-widget .sidebar-booking-form .booking-extra .extra, .sidebar-widget-area .booking-form-widget .sidebar-booking-form .booking-total .total, .sidebar-widget-area .booking-info-widget ul.info-list li span span, .contact-info-item .info p {
   color: #1C231F; }
 
@@ -59,7 +61,7 @@ h1, h2, h3, h4, h5, h6, .main-btn i, .main-btn.filled-btn, .main-btn.filled-btn:
   background-color: #F7921E; }
 
 .black-bg, .header-one .header-navigation.sticky, .header-two .header-navigation.sticky, .single-activity-item .content .main-btn i {
-  background-color: #1D231F; }
+  background-color: #010f06; }
 
 .white-bg, .main-btn i, .main-btn.filled-btn:hover i, .preloader, .header-navigation .main-menu ul > li .sub-menu, .header-navigation.breakpoint-on .nav-menu, .header-four .header-navigation.sticky, .navigation-white.header-navigation .navbar-toggler span, .hero-wrapper-three .hero-arrows .slick-arrow:hover, .hero-search-form, .about-two_content-box .card-list .card-item, .single-features-item .img-holder .content, .single-features-item-three .content, .single-features-list .icon-inner .icon, .fancy-icon-box .icon, .fancy-icon-box-two, .fancy-icon-box-three .icon, .single-team-item, .single-counter-item, .single-counter-item-two .icon, .single-activity-item .content .meta, .single-event-item, .video-popup, .single-service-item, .single-service-item .content .icon-btn, .single-service-item-three:hover, .single-service-item-three .content .meta span.rate, .single-service-item-four:hover, .single-service-item-four .content .icon-btn, .activity-nav-tab, .booking-form-wrapper, .booking-form .nice-select:focus,
 .booking-form .form_control:focus, .single-place-item .place-content .info, .single-place-item-three:hover, .single-place-item-three .place-content .meta .icon-btn, .destination-details-wrapper .destination-info .features-list li span, .gw-testimonial-item-two, .single-blog-post-four .entry-content .main-btn.filled-btn:hover i, .sidebar-widget-area .sidebar-widget, .sidebar-widget-area .booking-form-widget .sidebar-booking-form .bk-item .nice-select,
@@ -197,7 +199,7 @@ body {
   font-style: normal;
   font-weight: 300;
   color: #484848;
-  font-family: "Prompt", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 29.6px;
   overflow-x: hidden; }
@@ -1028,9 +1030,10 @@ button {
 =================----*/
 /* Hero Content */
 .hero-content h1 {
-  font: 600 100px "Prompt", sans-serif;
+  font: 600 100px "Inter", sans-serif;
   line-height: 1.1;
-  text-transform: capitalize; }
+  text-transform: none; 
+}
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .hero-content h1 {
       font-size: 80px; } }
@@ -1078,7 +1081,7 @@ button {
     .hero-wrapper .hero-content {
       padding-left: 0; } }
   .hero-wrapper .hero-content h1 {
-    text-transform: uppercase;
+    text-transform: none;
     margin-bottom: 25px; }
   .hero-wrapper .hero-content .text-button {
     max-width: 600px; }
