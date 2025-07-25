@@ -922,7 +922,7 @@ button {
     display: none; } }
 
 .header-top-bar .site-branding {
-  max-width: 200px; }
+  max-width: 100px; }
 
 .header-top-bar .single-info-item-two {
   -webkit-box-pack: end;
